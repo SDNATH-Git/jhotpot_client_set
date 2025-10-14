@@ -9,7 +9,7 @@ import { Carousel } from 'react-responsive-carousel';
 const Banner = () => {
     return (
         <div className="my-5">
-            <div className="rounded-2xl overflow-hidden h-[200px] md:h-[300px] lg:h-[550px]">
+            <div className="rounded-2xl overflow-hidden h-[200px] md:h-[300px] lg:h-[500px]">
                 <Carousel
                     autoPlay
                     infiniteLoop
@@ -18,16 +18,16 @@ const Banner = () => {
                     showIndicators={false}
                 >
                     <div>
-                        <img src={bannerImg1} className="w-full h-[200px] md:h-[300px] lg:h-[550px] object-cover" />
+                        <img src={bannerImg1} className="w-full h-[200px] md:h-[300px] lg:h-[500px] object-cover" />
                     </div>
                     <div>
-                        <img src={bannerImg2} className="w-full h-[200px] md:h-[300px] lg:h-[550px] object-cover" />
+                        <img src={bannerImg2} className="w-full h-[200px] md:h-[300px] lg:h-[500px] object-cover" />
                     </div>
                     <div>
-                        <img src={bannerImg3} className="w-full h-[200px] md:h-[300px] lg:h-[550px] object-cover" />
+                        <img src={bannerImg3} className="w-full h-[200px] md:h-[300px] lg:h-[500px] object-cover" />
                     </div>
                     <div>
-                        <img src={bannerImg4} className="w-full h-[200px] md:h-[300px] lg:h-[550px] object-cover" />
+                        <img src={bannerImg4} className="w-full h-[200px] md:h-[300px] lg:h-[500px] object-cover" />
                     </div>
                 </Carousel>
             </div>
