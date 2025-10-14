@@ -3,6 +3,7 @@ import Banner from '../Home_components/Banner';
 import Services from '../Home_components/Services/Services';
 import ClientLogosMarquee from '../Home_components/ClientLogosMarquee';
 import Benefits from '../Home_components/Benefit/Benefits';
+import BeMerchant from '../Home_components/BeMerchant';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Services></Services>
             <ClientLogosMarquee></ClientLogosMarquee>
             <Benefits></Benefits>
+            <BeMerchant></BeMerchant>
         </div>
     );
 };
