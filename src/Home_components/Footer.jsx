@@ -4,14 +4,14 @@ import Logo from "../assets/Logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-base-content  p-6 shadow-inner text-white">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <footer className="bg-gray-900  px-5 md:px-10 py-5 shadow-inner text-white">
+            <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
 
                 {/* App Info */}
                 <div>
                     <div className="flex items-center ">
-                        <img className="w-14 " src={Logo} alt="Logo" />
-                        <h1 className="text-xl mt-2.5 font-bold "><span className="text-green-600">Food</span> <span className="text-orange-600">Sharing</span></h1>
+                        <img className="w-30 h-18 " src={Logo} alt="Logo" />
+
                     </div>
                     <p>Your one-stop shop for all modern web and mobile apps.</p>
                 </div>

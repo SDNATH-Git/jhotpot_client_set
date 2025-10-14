@@ -8,7 +8,7 @@ const testimonials = [
         id: 1,
         name: "SD Nath",
         title: "Senior Product Designer",
-        text: "A posture corrector works by providing support and gentle alignment to your shoulders, back, and spine, encouraging you to maintain proper posture throughout the day.",
+        text: "A posture corrector works by providing support and gentle alignment  encouraging you to maintain proper posture throughout the day.",
         image: "https://i.ibb.co.com/s9dv9ZLj/shuvo.png",
     },
     {
@@ -69,12 +69,14 @@ export default function CenteredTestimonialSlider() {
 
             <div className="relative flex justify-center items-center overflow-hidden">
                 {/* Left Arrow */}
+                {/* Left Arrow */}
                 <button
                     onClick={prev}
-                    className="absolute left-2 md:left-10 bg-[#03373D] text-white p-3 rounded-full hover:bg-[#F04C2B] transition"
+                    className="absolute  left-2 md:left-10 z-20 bg-[#F04C2B] text-white p-3  rounded-full hover:bg-[#03373D] transition-all duration-300 shadow-lg"
                 >
                     <FaArrowLeft />
                 </button>
+
 
                 {/* Testimonial Cards */}
                 <div className="flex items-center justify-center w-full  h-[380px] relative">
