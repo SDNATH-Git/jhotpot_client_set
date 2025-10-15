@@ -59,7 +59,7 @@ export default function CenteredTestimonialSlider() {
 
     return (
         <section className="w-full  py-16 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#03373D] mb-3">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#0D5EA6] mb-3">
                 What our customers are saying
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10">
