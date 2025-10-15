@@ -16,7 +16,7 @@ const ClientLogosMarquee = () => {
     return (
         <section className="py-10 ">
             <div className=" px-2">
-                <h2 className="text-2xl text-primary font-bold text-center mb-12">Trusted by Leading Brands</h2>
+                <h2 className="text-3xl text-[#0D5EA6] font-bold text-center mb-12">Trusted by Leading Brands</h2>
 
                 <Marquee pauseOnHover speed={50} gradient={false}>
                     {logos.map((logo, idx) => (

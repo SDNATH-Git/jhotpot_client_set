@@ -51,21 +51,12 @@ const Services = () => {
                     Enjoy fast, reliable parcel delivery with real-time tracking and zero hassle. From personal packages to business shipments — we deliver on time, every time.
                 </p>
             </div>
-
-            {/* <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {servicesData.map((service, idx) => (
-                    <ServiceCard
-                        key={idx}
-                        service={service}
-                    />
-                ))}
-            </div> */}
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {servicesData.map((service, idx) => (
                     <ServiceCard
                         key={idx}
                         service={service}
-                        index={idx}   // ✅ এই লাইনটা যোগ করুন
+                        index={idx}
                     />
                 ))}
             </div>
