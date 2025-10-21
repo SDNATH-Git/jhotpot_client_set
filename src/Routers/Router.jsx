@@ -6,6 +6,7 @@ import Home from "../Home/Home";
 import Error from "../Home_components/Error";
 import Login from "../Pages/AuthPage/Login";
 import Register from "../Pages/AuthPage/Register";
+import Coverage from "../Components/Coverage/Coverage";
 
 
 const router = createBrowserRouter([
@@ -17,6 +18,11 @@ const router = createBrowserRouter([
             {
                 index: true,
                 Component: Home,
+            },
+            {
+                path: "/coverage",
+                element: <Coverage></Coverage>,
+                loader: () => fetch('./serviceCenter.json'),
             },
             {
                 path: "/login",
