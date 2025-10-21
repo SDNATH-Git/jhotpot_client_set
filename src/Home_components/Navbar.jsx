@@ -50,7 +50,7 @@ const Navbar = () => {
         { name: "Services", path: "/services" },
         { name: "Coverage", path: "/coverage" },
         { name: "About_Us", path: "/about_Us" },
-        { name: "Pricing", path: "/pricing" },
+        { name: "SendParcel", path: "/sendParcel" },
         { name: "Be a Rider", path: "/be_a_Rider" },
     ];
 

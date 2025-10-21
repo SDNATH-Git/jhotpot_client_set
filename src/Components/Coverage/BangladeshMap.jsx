@@ -38,7 +38,7 @@ const BangladeshMap = ({ serviceCenters }) => {
         }
     };
 
-    console.log("serviceCenters:", serviceCenters);
+    // console.log("serviceCenters:", serviceCenters);
 
     return (
         <div className="h-[800px] w-full rounded-lg overflow-hidden shadow-lg relative">
