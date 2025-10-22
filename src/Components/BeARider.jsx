@@ -1,13 +1,9 @@
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
-
 import { useState } from "react";
 import useAuth from "../hooks/useAuth";
 import useAxiosSecure from "../hooks/useAxiosSecure";
 import { useLoaderData } from "react-router";
-// import useAuth from "../../../hooks/useAuth";
-// import { useLoaderData } from "react-router";
-// import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 
 const BeARider = () => {

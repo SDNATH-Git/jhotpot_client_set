@@ -50,7 +50,7 @@ const BangladeshMap = ({ serviceCenters }) => {
     };
 
     return (
-        <section className="w-full flex flex-col items-center gap-6 py-8 px-4 md:px-10">
+        <section className="w-full h-[500px] md:h-[700px] flex flex-col items-center gap-6 py-8  ">
             {/* 🌫️ Glass Search Bar (outside map) */}
             <motion.form
                 onSubmit={handleSearch}
@@ -68,14 +68,14 @@ const BangladeshMap = ({ serviceCenters }) => {
                 />
                 <button
                     type="submit"
-                    className="bg-blue-600 text-white px-5 font-semibold hover:bg-blue-700 transition-all"
+                    className="bg-[#0D5EA6] text-white px-5 font-semibold hover:bg-[#0D5EA6] transition-all"
                 >
                     Go
                 </button>
             </motion.form>
 
             {/* 🗺️ Map Container */}
-            <div className="w-full z-0 h-[600px] rounded-xl overflow-hidden shadow-2xl border border-gray-200">
+            <div className="w-full z-0 h-[500px] rounded-xl overflow-hidden shadow-xl border-2 border-gray-300">
                 <MapContainer
                     center={position}
                     zoom={7}
