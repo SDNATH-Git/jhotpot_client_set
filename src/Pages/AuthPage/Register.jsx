@@ -119,7 +119,7 @@ const Register = () => {
 
     return (
         <div className=" bg-gradient-to-br from-orange-100 via-amber-100 to-yellow-100 flex items-center justify-center ">
-            <div className="bg-white/70 backdrop-blur-md p-8 sm:p-10 rounded-2xl shadow-2xl w-full ">
+            <div className="bg-white/70 backdrop-blur-md p-10 md:p-20 rounded-2xl shadow-2xl w-full ">
                 {/* Logo */}
                 <div className="flex items-center justify-center">
                     <div className=" py-">

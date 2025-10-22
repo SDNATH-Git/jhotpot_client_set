@@ -27,14 +27,14 @@ const AuthProvider = ({ children }) => {
 
   // Email/Password Sign In
   const signIn = (email, password) => {
-        setLoading(true)
+    setLoading(true)
     return signInWithEmailAndPassword(auth, email, password);
   };
 
   // Google Sign In
   const googleProvider = new GoogleAuthProvider();
   const googleSignIn = () => {
-        setLoading(true)
+    setLoading(true)
     return signInWithPopup(auth, googleProvider);
   };
 
