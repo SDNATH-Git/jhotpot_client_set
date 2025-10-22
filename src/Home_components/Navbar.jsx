@@ -51,7 +51,7 @@ const Navbar = () => {
         { name: "Coverage", path: "/coverage" },
         { name: "About_Us", path: "/about_Us" },
         { name: "SendParcel", path: "/sendParcel" },
-        { name: "Be a Rider", path: "/be_a_Rider" },
+        { name: "Be a Rider", path: "/beARider" },
     ];
 
     const renderNavLinks = (onClickClose = null) =>

@@ -9,6 +9,7 @@ import Register from "../Pages/AuthPage/Register";
 import Coverage from "../Components/Coverage/Coverage";
 import SendParcel from "../Components/SendParcel";
 import PrivateRoute from "../Provider/PrivateRoute";
+import BeARider from "../Components/BeARider";
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
             {
                 path: '/sendParcel',
                 element: <PrivateRoute><SendParcel></SendParcel></PrivateRoute>,
+                loader: () => fetch('./serviceCenter.json')
+            },
+            {
+                path: '/beARider',
+                element: <PrivateRoute><BeARider></BeARider></PrivateRoute>,
                 loader: () => fetch('./serviceCenter.json')
             },
             {
