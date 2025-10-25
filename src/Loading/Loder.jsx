@@ -6,14 +6,7 @@ import Logo from "../assets/logo.png";
 
 const Loder = () => {
     return (
-        // <div
-        //     className="flex items-center justify-center h-screen bg-center bg-cover object-contain bg-no-repeat"
-        //     style={{
-        //         backgroundImage:
-        //             " url('https://i.ibb.co/vCLnpHxq/map2.png')",
-        //         backgroundBlendMode: "overlay",
-        //     }}
-        // >
+
         <div
             className="flex items-center justify-center h-screen bg-center bg-cover bg-no-repeat relative"
             style={{
