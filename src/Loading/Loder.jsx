@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Logo from "../assets/logo.png";
 
-// bg - gradient - to - br from - [#03373D] to - [#03373D]
+
 
 const Loder = () => {
     return (
