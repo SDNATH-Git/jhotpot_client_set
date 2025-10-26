@@ -169,7 +169,7 @@ const BeARider = () => {
                     ></textarea>
                 </div>
 
-                <button type="submit" className="btn bg-orange-500 text-black w-full mt-4">
+                <button type="submit" className="btn bg-[#F04C2B] text-white hover:bg-[#0D5EA6] w-full mt-4">
                     Submit Rider Application
                 </button>
             </form>
