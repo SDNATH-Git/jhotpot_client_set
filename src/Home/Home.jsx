@@ -15,6 +15,7 @@ const fadeInUp = {
 
 const Home = () => {
     return (
+
         <div className='px-5 md:px-10 bg-[#F7F7F7]'>
 
             {/* Banner Section */}
@@ -77,6 +78,7 @@ const Home = () => {
                 <TestimonialSection />
             </motion.div>
         </div>
+
     );
 };
 

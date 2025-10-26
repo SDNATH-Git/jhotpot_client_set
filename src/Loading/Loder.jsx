@@ -8,9 +8,10 @@ const Loder = () => {
     return (
 
         <div
-            className="flex items-center justify-center h-screen bg-center bg-cover bg-no-repeat relative"
+            className="flex items-center justify-center h-screen w-screen bg-center bg-cover bg-no-repeat relative"
             style={{
-                backgroundImage: "url('https://i.ibb.co.com/BVBc02rn/Gemini-Generated-Image-qyl5vxqyl5vxqyl5.png')",
+                backgroundImage: "url('https://i.ibb.co.com/8nG7fgYZ/b-1.jpg')",
+                backgroundAttachment: "fixed", // optional parallax effect
             }}
         >
 
