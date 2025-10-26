@@ -10,7 +10,7 @@ const Loder = () => {
         <div
             className="flex items-center justify-center h-screen bg-center bg-cover bg-no-repeat relative"
             style={{
-                backgroundImage: "url('https://i.ibb.co.com/3m0S7C8H/map1.png')",
+                backgroundImage: "url('https://i.ibb.co.com/BVBc02rn/Gemini-Generated-Image-qyl5vxqyl5vxqyl5.png')",
             }}
         >
 
