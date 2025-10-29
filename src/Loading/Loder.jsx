@@ -11,7 +11,7 @@ const Loder = () => {
             className="flex items-center justify-center h-screen w-screen bg-center bg-cover bg-no-repeat relative"
             style={{
                 backgroundImage: "url('https://i.ibb.co.com/8nG7fgYZ/b-1.jpg')",
-                backgroundAttachment: "fixed", // optional parallax effect
+
             }}
         >
 
