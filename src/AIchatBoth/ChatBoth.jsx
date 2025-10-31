@@ -88,7 +88,8 @@ const ChatBoth = () => {
                     <div className="flex items-center justify-between px-4 py-3 bg-[#F04C2B] text-white rounded-t-2xl">
                         <div className="flex items-center gap-2">
                             <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center">
-                                🍽️
+                                🚴
+
                             </div>
                             <div>
                                 <div className="text-sm font-semibold">Parcel Management Assistant</div>
