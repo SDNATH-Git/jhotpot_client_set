@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { FaFacebookMessenger } from "react-icons/fa";
+import { MdMarkUnreadChatAlt } from "react-icons/md";
 
 const uuid = () => Math.random().toString(36).slice(2, 9);
 
@@ -78,7 +78,9 @@ const ChatBoth = () => {
                 aria-label="Open chat"
                 className="fixed bottom-6 right-6 bg-[#F04C2B] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 z-50"
             >
-                <FaFacebookMessenger size={28} />
+
+                <MdMarkUnreadChatAlt size={32} />
+
             </button>
 
             {/* Chat popup */}
@@ -88,7 +90,7 @@ const ChatBoth = () => {
                     <div className="flex items-center justify-between px-4 py-3 bg-[#F04C2B] text-white rounded-t-2xl">
                         <div className="flex items-center gap-2">
                             <div className="w-8 h-8 rounded-full bg-gray-50 flex items-center justify-center">
-                                🚴
+                                👨‍🚀
 
                             </div>
                             <div>
@@ -113,7 +115,7 @@ const ChatBoth = () => {
                                     }`}
                             >
                                 <div
-                                    className={`${m.role === "user" ? "bg-green-100" : "bg-orange-50"
+                                    className={`${m.role === "user" ? "bg-blue-50" : "bg-orange-50"
                                         } p-2 rounded-lg max-w-[78%] text-sm whitespace-pre-wrap`}
                                 >
                                     {m.text}
