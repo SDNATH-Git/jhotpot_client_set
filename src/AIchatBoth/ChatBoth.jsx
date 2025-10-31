@@ -83,7 +83,7 @@ const ChatBoth = () => {
 
             {/* Chat popup */}
             {open && (
-                <div className="fixed bottom-20 right-4 w-72 md:w-96 max-h-[65vh] md:max-h-[80vh] bg-white shadow-2xl rounded-2xl border border-gray-200 flex flex-col z-50">
+                <div className="fixed bottom-20 right-4 w-72 md:w-96 max-h-[65vh] md:max-h-[80vh] bg-white shadow-2xl rounded-2xl border border-blue-300 flex flex-col z-50">
                     {/* Header */}
                     <div className="flex items-center justify-between px-4 py-3 bg-[#F04C2B] text-white rounded-t-2xl">
                         <div className="flex items-center gap-2">
@@ -136,7 +136,7 @@ const ChatBoth = () => {
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyDown={handleKeyDown}
                                 placeholder="Type your question..."
-                                className="flex-1 rounded-xl border px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#F04C2B]"
+                                className="flex-1 rounded-xl border border-blue-300 px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-[#F04C2B]"
                             />
                             <button
                                 onClick={sendMessage}
