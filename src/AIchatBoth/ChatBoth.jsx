@@ -76,7 +76,7 @@ const ChatBoth = () => {
             <button
                 onClick={() => setOpen((o) => !o)}
                 aria-label="Open chat"
-                className="fixed bottom-6 right-6 bg-green-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 z-50"
+                className="fixed bottom-6 right-6 bg-[#F04C2B] text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-200 z-50"
             >
                 <FaFacebookMessenger size={28} />
             </button>
