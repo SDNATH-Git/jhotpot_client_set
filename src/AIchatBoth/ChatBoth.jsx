@@ -9,7 +9,7 @@ const ChatBoth = () => {
         {
             id: uuid(),
             role: "assistant",
-            text: "👋 Welcome to Food sharing! How can I help you today?",
+            text: "👋 Welcome to Jhotpot! How can I help you today?",
             createdAt: Date.now(),
         },
     ]);
@@ -91,7 +91,7 @@ const ChatBoth = () => {
                                 🍽️
                             </div>
                             <div>
-                                <div className="text-sm font-semibold">Food sharing Assistant</div>
+                                <div className="text-sm font-semibold">Parcel Management Assistant</div>
                                 <div className="text-xs opacity-80">Always here to help</div>
                             </div>
                         </div>
